@@ -1,0 +1,64 @@
+:root {
+    font-size: 1em;
+    --primary_color: green;
+    --secondary_color: gray;
+    --font_color: black;
+    line-height: 1.4;
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: poppins, sans-serif;
+    color: white;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.883);
+    height: 90vh;
+    background-image: url(/Assets/Images/profile.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+}
+
+nav {
+    background-color: rgb(32, 32, 32);
+    color: white;
+    display: flex !important;
+    justify-content: space-between;
+    padding: 15px 50px;
+    font-size: 1.3em;
+}
+
+.nav-bar {
+    display: flex;
+}
+
+.nav-bar li{
+    margin-left: 50px;
+    list-style: none;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    color: rgb(228, 228, 228);  
+}
+
+.showcase {
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.582);
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.showcase h1{
+    margin-bottom: 15px;
+}
